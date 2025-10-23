@@ -35,5 +35,6 @@
 # IDE 特有設定
 .idea/
 *.iml
+.vs/
 .vscode/
 .vscode/*
