@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 880b49aef98b86841910bc67b15b433a, type: 3}
+  m_Name: BackpackTable
+  m_EditorClassIdentifier: 
+  DataList:
+  - name: "\u77F3\u982D"
+    type: 0
+    description: rock
+    iconPath: UI/stone
+  - name: "\u6728\u982D"
+    type: 0
+    description: wood
+    iconPath: UI/wood
+  - name: "\u7D2B\u6C34\u6676"
+    type: 0
+    description: wood
+    iconPath: UI/Crystal_P
+  - name: "\u85CD\u6C34\u6676"
+    type: 0
+    description: wood
+    iconPath: UI/Crystal_B
+  - name: "\u9EC3\u6C34\u6676"
+    type: 0
+    description: wood
+    iconPath: UI/Crystal_Y
+  - name: "\u91D1\u85E5\u6C34"
+    type: 0
+    description: wood
+    iconPath: "UI/\u91D1\u85E5\u6C34\u80CC\u5305"
+  - name: "\u6E1B\u7DE9"
+    type: 0
+    description: wood
+    iconPath: "UI/\u6E1B\u7DE9"
+  - name: "\u52A0\u901F"
+    type: 0
+    description: wood
+    iconPath: "UI/\u52A0\u901F"
+  - name: "\u6642\u9593\u589E\u52A0"
+    type: 0
+    description: wood
+    iconPath: "UI/\u6642\u9593\u589E\u52A0"
+  - name: "\u9632\u8B77"
+    type: 0
+    description: wood
+    iconPath: "UI/\u9632\u8B77"
+  - name: "\u679C\u5BE6"
+    type: 0
+    description: wood
+    iconPath: "UI/\u679C\u5BE6"
