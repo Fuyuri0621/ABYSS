@@ -1,0 +1,39 @@
+
+# Unity 本地快取與中繼檔（含 ArtifactDB）
+/[Ll]ibrary/
+[Ll]ibrary/**
+!/[Aa]ssets/**
+
+# 不要上傳暫存壓縮與匯出檔
+*.zip
+*.rar
+*.7z
+
+# 不要上傳外部 DLL 或編譯產物
+*.dll
+*.exe
+*.so
+*.a
+*.lib
+
+# 不要上傳外部資料庫、快取、暫存
+*.db
+*.bak
+*.tmp
+*.old
+*.backup
+*.cache
+*.log
+
+# 不要上傳舊版自動備份
+*[Bb]ackup*
+
+# 不要上傳圖片備份或截圖（太大）
+/[Ss]creenshots/
+/[Ss]creenshot*/ 
+
+# IDE 特有設定
+.idea/
+*.iml
+.vscode/
+.vscode/*
