@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d84dda5e6047364fb21b411e1f9a701, type: 3}
   m_Name: Iced
   m_EditorClassIdentifier: 
-  maxSpeed: 8
+  maxSpeed: 6
   maxAcceleration: 30
   maxDecceleration: 2
   maxTurnSpeed: 7
   maxAirAcceleration: 10
   maxAirDeceleration: 5
   maxAirTurnSpeed: 10
-  jumpHeight: 2
+  jumpHeight: 1
   maxAirJumps: 0
   timeToJumpApex: 0.1

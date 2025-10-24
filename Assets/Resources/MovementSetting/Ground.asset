@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d84dda5e6047364fb21b411e1f9a701, type: 3}
   m_Name: Ground
   m_EditorClassIdentifier: 
-  maxSpeed: 6
+  maxSpeed: 5
   maxAcceleration: 80
   maxDecceleration: 80
   maxTurnSpeed: 60
