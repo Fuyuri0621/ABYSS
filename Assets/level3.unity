@@ -502,10 +502,16 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -9.599999, y: 5.4}
-      - {x: -9.599999, y: -5.4}
-      - {x: 9.599999, y: -5.4}
+      - {x: -9.793051, y: -3.3536549}
+      - {x: 9.677219, y: -3.6625364}
       - {x: 9.599999, y: 5.4}
   m_UseDelaunayMesh: 0
+--- !u!4 &109458416 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5273550039752802533, guid: dfa7e38fc47749848a3e9af5c702f089,
+    type: 3}
+  m_PrefabInstance: {fileID: 502882936861822266}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &157705818 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2058893553217279381, guid: dfa7e38fc47749848a3e9af5c702f089,
@@ -1153,7 +1159,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.526745, y: 2.3000019, z: -50}
+  m_LocalPosition: {x: 15.535847, y: 2.2650297, z: -50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1620,6 +1626,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Virtual Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 4526059176788690579, guid: e211c51850c01fc47bb405f3901115f5,
+        type: 3}
+      propertyPath: player1
+      value: 
+      objectReference: {fileID: 1476023516372349372}
+    - target: {fileID: 4526059176788690579, guid: e211c51850c01fc47bb405f3901115f5,
+        type: 3}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 109458416}
     - target: {fileID: 6969952709309935558, guid: e211c51850c01fc47bb405f3901115f5,
         type: 3}
       propertyPath: m_Follow
@@ -1795,6 +1811,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918900897566696360, guid: 279fa392744930e4baa99b462b0de4fd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918900897566696360, guid: 279fa392744930e4baa99b462b0de4fd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918900897566696360, guid: 279fa392744930e4baa99b462b0de4fd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: levelselect
       objectReference: {fileID: 0}
     - target: {fileID: 6845635725643203535, guid: 279fa392744930e4baa99b462b0de4fd,
         type: 3}

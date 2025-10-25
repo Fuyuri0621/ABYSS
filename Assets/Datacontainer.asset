@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd3d7c82fce943d408e710976ebb4b5b, type: 3}
   m_Name: Datacontainer
   m_EditorClassIdentifier: 
-  coopMode: 1
+  coopMode: 0
   levelclear: 01010100
   craftedWeapon:
   - "\u65A7\u982D"

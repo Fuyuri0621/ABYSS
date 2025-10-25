@@ -19,6 +19,6 @@ MonoBehaviour:
   maxAirAcceleration: 10
   maxAirDeceleration: 5
   maxAirTurnSpeed: 10
-  jumpHeight: 1
+  jumpHeight: 2
   maxAirJumps: 0
   timeToJumpApex: 0.1
